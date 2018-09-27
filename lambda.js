@@ -1,7 +1,7 @@
 // Load the SDK and UUID
 let AWS = require('aws-sdk');
 let fs = require('fs');
-let file = './test/blah.zip'
+let file = './stratus-edge-hughesnetinternet-net-EdgeFunction.zip'
 let data = fs.readFileSync(file);
 
 module.exports = {

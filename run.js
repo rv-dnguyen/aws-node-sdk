@@ -1,7 +1,7 @@
 const s3manager = require('./s3.js');
 const lambdaManager = require('./lambda.js');
 const cfManager = require('./cf.js');
-const name = 'nguyentest12';
+const name = 'nguyentest14';
 
 s3manager.createS3Bucket(name).then(function(result){
     console.log(result);
