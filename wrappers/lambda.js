@@ -34,7 +34,7 @@ module.exports = {
         MemorySize: 128,
         Publish: true,
         Tags: {
-          'lambda-console:blueprint': 'cloudfront-http-redirect',
+          'nguyen-strat-poc': 'veal',
           /* '<TagKey>': ... */
         },
         Timeout: 5,

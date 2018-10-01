@@ -42,6 +42,25 @@ module.exports = {
             reject(err);
           });
     });
+  },
+  tagBucket(bucketName){
+    return new Promise((resolve,reject) => {
+      var params = {
+        Bucket: "bucketName", 
+        Tagging: {
+         TagSet: [
+            {
+           Key: "nguyen-strat-poc", 
+           Value: "super-secrect-squirrel"
+          }, 
+         ]
+        }
+       };
+       s3.putBucketTagging(params, function(err, data) {
+         if (err) reject(data) // an error occurred
+         else     resolve(data);           // successful response
+       });
+    })
   }
 }
 
