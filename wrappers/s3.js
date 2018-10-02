@@ -1,6 +1,7 @@
-var AWS = require('aws-sdk');
-//https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/using-promises.html
 
+//https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/using-promises.html
+//https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html
+var AWS = require('aws-sdk');
 module.exports = {
   createS3Bucket(bucketName) {
     return new Promise((resolve, reject) => {

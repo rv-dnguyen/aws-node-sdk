@@ -1,7 +1,7 @@
 const s3Wrapper = require('./wrappers/s3.js');
 const lambdaWrapper = require('./wrappers/lambda.js');
 const cfWrapper = require('./wrappers/cf.js');
-const name = 'nguyentest25';
+const name = 'stratus-codedeploy-test';
 
 console.log('LOG:Creating s3 bucket');
 s3Wrapper.createS3Bucket(name).then(function(result){

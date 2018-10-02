@@ -1,4 +1,5 @@
 // Load the SDK and UUID
+//https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/Lambda.html
 let AWS = require('aws-sdk');
 let fs = require('fs');
 let file = './stratus-edge-hughesnetinternet-net-EdgeFunction.zip'

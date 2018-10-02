@@ -1,3 +1,5 @@
+//https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/CloudFront.html
+
 let AWS = require('aws-sdk');
 let cloudfront = new AWS.CloudFront();
 
