@@ -1,3 +1,5 @@
+Sorry about all of the promises. I was messing around with them.
+
 https://aws.amazon.com/sdk-for-node-js/
 
 install aws-sdk
@@ -10,4 +12,4 @@ https://resources.console.aws.amazon.com/r/tag
 
 each resource type has tags that can be added in the sdk and searched upon
 
-Look at https://aws.amazon.com/codebuild/ for jenkins build replacement
+Look at https://aws.amazon.com/codebuild/ for jenkins build replacement```
